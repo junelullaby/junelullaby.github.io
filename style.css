@@ -26,14 +26,14 @@
     color: white;
 }
 
-.row1{
+/*.row1{
     text-align: center; 
 }
 
 .row1{
     text-align: center; 
 }
-
+*/
 .card-img-top{
     width: 100%;
     height: auto;
@@ -44,10 +44,27 @@
     margin-right: 2px
 }
 
-div {
+/*div {
     border: 2px solid black;
-}
+}*/
 
 .carousel-caption{
     border: 0px
 }
+
+.d-block{
+    background-image: url("img/07 小豆岛-天使之路.jpg");
+}
+
+.introvideo{
+    text-align: center;
+}
+
+.video {
+    text-align: center;;
+    height: 100vh;
+} 
+
+div { 
+    border: 2px solid black;
+ }

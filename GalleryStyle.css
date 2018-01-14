@@ -1,13 +1,13 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #300;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #f1f1f1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,6 +22,43 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4CAF30;
     color: white;
+}
+
+
+
+.card-img-top{
+    width: 1300px;
+    height: auto;
+}
+
+.card-title{
+    margin-left: 12cm;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: grey
+}
+
+.card-text{
+    margin-left: 12cm;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.btn{
+    margin-left: 12cm;
+    font-size: 10px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.fas{
+    float: center;
+    opacity: 0.4
+}
+
+
+.maps{
+    margin-left: 230px;
 }

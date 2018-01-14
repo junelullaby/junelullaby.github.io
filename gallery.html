@@ -2,48 +2,70 @@
 <html>
 <head>
 	<title>Gallery</title>
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" type="text/css" href="GalleryStyle.css">
-</head>
-<body>
-  <div class="topnav">
-    <a class="active" href="Menu">Menu</a>
-    <a href="gallery.html">直岛</a>
-    <a href="gallery.html">丰岛</a>
-    <a href="gallery.html">小豆岛</a>
-  </div>
-
-
-	<div class="card" style="width: 18rem;">
-		<img class="card-img-top" src="F:\xxx Past Records\实习\十方\十方\end 濑户内海副本\濑户内海 6.14\17 直岛-简介.jpg" alt="Naoshima">
-	  <div class="card-body">
-	    <h5 class="card-title">交通信息</h5>
-	    <p class="card-text">Naoshima Transportation</p>
-	    <a href="https://www.japan-guide.com/e/e5475.html" class="btn btn-primary">Transportation details</a>
-	  </div>
-	</div>
 	
-	<div class="card" style="width: 18rem;">
-		<img class="card-img-top" src="F:\xxx Past Records\实习\十方\十方\end 濑户内海副本\濑户内海 6.14\41 丰岛-美术馆.jpg" alt="Teshima">
+</head>
+
+<body>
+	<div class="topnav">
+	    <a class="active" href="index.html">Back</a>
+	    <a href="#bookmark1">Transportation</a>
+	    <a href="#bookmark2">Food</a>
+	    <a href="#bookmark3">Destination</a>
+	</div>
+
+	<div class="card" id="bookmark1">
+		<img class="card-img-top" src="img/32 直岛-地中美术馆.jpg" alt="Naoshima">
+
+		<div class="card-body">
+		    <h5 class="card-title">交通信息</h5>
+			<p class="card-text">Naoshima Transportation</p>
+		</div>
+	</div>
+				
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+				<i class="fas fa-map-marker-alt fa-3x"></i>
+			</div>
+
+			<div class="col-sm">
+				<div class="maps">
+					<a href="https://www.google.co.uk/maps/place/34%C2%B027'52.7%22N+133%C2%B058'13.8%22E/@34.4646394,133.9683213,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3553f1b6b30575ed:0xae1f083eeb8571c5!2z5pel5pys44CSNzYxLTMxMTAg6aaZ5bed5Y6_IEthZ2F3YS1ndW4sIOebtOWym-eUug!3b1!8m2!3d34.4597032!4d133.9956894!3m5!1s0x0:0x0!7e2!8m2!3d34.4646351!4d133.97051"></a>.
+		   			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5078306774494!2d133.9683213146232!3d34.4646394033332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI3JzUyLjciTiAxMzPCsDU4JzEzLjgiRQ!5e0!3m2!1szh-CN!2suk!4v1515946106804" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a href="https://www.japan-guide.com/e/e5475.html#section_get_there" class="btn btn-primary">Details</a>
+	
+	<div class="card" id="bookmark2">
+		<img class="card-img-top" src="img/41 丰岛-美术馆.jpg" alt="Teshima">
 	  <div class="card-body">
-	    <h5 class="card-title">当地美食</h5>
+	    <h5 class="card-title"><i class="fas fa-utensils"></i>当地美食</h5>
 	    <p class="card-text">Teshima Transportation</p>
-	    <a href="https://www.japan-guide.com/e/e5475.html" class="btn btn-primary">Food details</a>
+	    <a href="https://www.japan-guide.com/e/e620.html" class="btn btn-primary">Details</a>
 	  </div>
 	</div>	
 		
-	<div class="card" style="width: 18rem;">
-		<img class="card-img-top" src="F:\xxx Past Records\实习\十方\十方\end 濑户内海副本\濑户内海 6.14\41 丰岛-美术馆.jpg" alt="Teshima">
-	  <div class="card-body">
-	    <h5 class="card-title">当地美食</h5>
-	    <p class="card-text">Teshima Transportation</p>
-	    <a href="https://www.japan-guide.com/e/e5475.html" class="btn btn-primary">Food details</a>
-	  </div>
+	<div class="card" id="bookmark3">
+		<img class="card-img-top" src="img/07 小豆岛-天使之路.jpg" alt="Shodoshima">
+		<div class="card-body">
+
+			<h5 class="card-title"><i class="fas fa-eye"></i>必去景点</h5>
+			<p class="card-text">To-do-list</p>
+			<a href="https://www.japan-guide.com/e/e2400.html" class="btn btn-primary">Details</a>
+		</div>
 	</div>	
 
-	</div>
-
-
-
-
 </body>
+
 </html>
